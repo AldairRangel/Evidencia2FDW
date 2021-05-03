@@ -1,0 +1,176 @@
+:root {
+    --blanco: #ffffff;
+    --primario: #f1ba13;
+    /*--secundario: #0097A7;*/
+    /*--gris: #cccf17;*/
+    --negro: #212121;
+}
+
+body {background-color: #c0c0c0;}
+
+html {
+    box-sizing: border-box;
+    min-height: 100%;
+    scroll-snap-type: y mandatory;
+}
+/**, *:before, *:after {
+    box-sizing: inherit;
+}*/
+p {
+    line-height: 2;
+    text-align: justify
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+/*    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);*/
+    min-height: 100%;
+    
+}
+h1 {
+    font-size: 1.4rem;
+}
+h1 span {
+    font-size: 1.4rem;
+}
+h1, h2, h3, h4{
+    text-align: center;
+}
+h2 {
+    font-size: 2.4rem;
+}
+h3 {
+    background-color: var(--negro);
+    color: yellow;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+h4 {
+    color: var(--negro);
+    font-size: 1.3rem;
+}
+/*.contenedor {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.nav-bg {
+    background-color: var(--negro);
+}*/
+.menu-principal{
+    text-align: center;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    background-color: #212121;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+}
+
+.menu-principal a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    }
+
+.menu-principal li:hover{
+    background-color:#f1ba13 ;
+}
+
+.menu-principal li{
+flex-grow: 1;
+padding: 1em 0;
+}
+/* @media (min-width:768px) {
+    .navegacion {
+        flex-direction: row;
+        flex-grow: 1;
+        justify-content: space-between;
+    }
+}
+.navegacion a{
+    padding: 1rem 2rem;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.navegacion a:hover {
+    background-color: var(--primario);
+    color: var(--negro);
+}
+.navegacion a:last-of-type {
+    margin-bottom:0;
+}
+@media (min-width:768px) {
+    .navegacion a{
+        margin-bottom: 0;
+    }
+} */
+img {
+    width: 50%;
+    height: auto;
+}
+img{
+    display:block;
+    margin:auto;
+}
+.NosotrosInicio {
+    margin: 3em;
+}
+
+.DivMisionVision {
+    display: grid;
+    grid-template-columns: 40.0% 10.0% 40.0%;
+    column-gap: 1rem;
+}
+/*@media (min-width:768px) {
+    .MisionInicio {
+        display: grid;
+        grid-template-columns: 25.0% 50.0% 25.0%;
+        column-gap: 1rem;
+    }
+}*/
+.TablaConsumo {
+    text-align: center;
+}
+.DivCasaOnegocio  {
+    display: grid;
+    grid-template-columns: 60.0% 10.0% 30.0%;
+    column-gap: 1rem;
+}
+.DivMetodosPago {
+    display: grid;
+    grid-template-columns: 40.0% 20.0% 40.0%;
+    column-gap: 1rem;
+}
+
+.formulario {
+    background-color: rgb(119, 114, 114);
+    color: black;
+    padding: 2rem;
+    border-radius: 10px;
+}
+.formulario h4 {
+    color: yellow;
+}
+.formulario legend {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.VideoIlustrativo {
+    text-align: center;
+}
+.footer p{
+    font-weight: bold;
+    text-align: center;
+}
+.footer {
+    background-color: #212121;
+    color: yellow;
+}
